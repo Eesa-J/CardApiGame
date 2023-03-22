@@ -14,6 +14,10 @@
 		BB4FD2F629CB086400AFF0E2 /* CardApiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD2F529CB086400AFF0E2 /* CardApiGameTests.swift */; };
 		BB4FD30029CB086400AFF0E2 /* CardApiGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD2FF29CB086400AFF0E2 /* CardApiGameUITests.swift */; };
 		BB4FD30229CB086400AFF0E2 /* CardApiGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD30129CB086400AFF0E2 /* CardApiGameUITestsLaunchTests.swift */; };
+		BB4FD31129CB08D800AFF0E2 /* DeckOfCardsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD31029CB08D800AFF0E2 /* DeckOfCardsApi.swift */; };
+		BB4FD31529CB09C100AFF0E2 /* DeckResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD31429CB09C100AFF0E2 /* DeckResponse.swift */; };
+		BB4FD31929CB0CFC00AFF0E2 /* DrawResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD31829CB0CFC00AFF0E2 /* DrawResponse.swift */; };
+		BB4FD31B29CB0D3000AFF0E2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4FD31A29CB0D3000AFF0E2 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		BB4FD2FB29CB086400AFF0E2 /* CardApiGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardApiGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4FD2FF29CB086400AFF0E2 /* CardApiGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApiGameUITests.swift; sourceTree = "<group>"; };
 		BB4FD30129CB086400AFF0E2 /* CardApiGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardApiGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB4FD31029CB08D800AFF0E2 /* DeckOfCardsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsApi.swift; sourceTree = "<group>"; };
+		BB4FD31429CB09C100AFF0E2 /* DeckResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckResponse.swift; sourceTree = "<group>"; };
+		BB4FD31829CB0CFC00AFF0E2 /* DrawResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResponse.swift; sourceTree = "<group>"; };
+		BB4FD31A29CB0D3000AFF0E2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,12 @@
 		BB4FD2E329CB086100AFF0E2 /* CardApiGame */ = {
 			isa = PBXGroup;
 			children = (
+				BB4FD31329CB09B300AFF0E2 /* Models */,
 				BB4FD2E429CB086100AFF0E2 /* CardApiGameApp.swift */,
 				BB4FD2E629CB086100AFF0E2 /* ContentView.swift */,
 				BB4FD2E829CB086400AFF0E2 /* Assets.xcassets */,
 				BB4FD2EA29CB086400AFF0E2 /* Preview Content */,
+				BB4FD31029CB08D800AFF0E2 /* DeckOfCardsApi.swift */,
 			);
 			path = CardApiGame;
 			sourceTree = "<group>";
@@ -125,6 +135,16 @@
 				BB4FD30129CB086400AFF0E2 /* CardApiGameUITestsLaunchTests.swift */,
 			);
 			path = CardApiGameUITests;
+			sourceTree = "<group>";
+		};
+		BB4FD31329CB09B300AFF0E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB4FD31429CB09C100AFF0E2 /* DeckResponse.swift */,
+				BB4FD31829CB0CFC00AFF0E2 /* DrawResponse.swift */,
+				BB4FD31A29CB0D3000AFF0E2 /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB4FD31129CB08D800AFF0E2 /* DeckOfCardsApi.swift in Sources */,
+				BB4FD31B29CB0D3000AFF0E2 /* Card.swift in Sources */,
 				BB4FD2E729CB086100AFF0E2 /* ContentView.swift in Sources */,
 				BB4FD2E529CB086100AFF0E2 /* CardApiGameApp.swift in Sources */,
+				BB4FD31529CB09C100AFF0E2 /* DeckResponse.swift in Sources */,
+				BB4FD31929CB0CFC00AFF0E2 /* DrawResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

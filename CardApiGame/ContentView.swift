@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        let api = DeckOfCardsAdapter()
+        Button("Get new deck of cards") {
+            api.drawACard()
+        }
             .padding()
+        
+        
     }
 }
 
